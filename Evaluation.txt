@@ -1,0 +1,3 @@
+First I installed the mongoose using npm and also installed mongodb. Then I connected my express server to the database and established connection to it. 
+For the Model Schema I defined two properties Title of song and Artist of the song.
+Using EJS I dynamically show the songs which are in the playlist in the database.
