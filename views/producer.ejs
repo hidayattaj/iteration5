@@ -1,0 +1,19 @@
+<section>
+  <h2>Playlist<h2>
+
+    <ul>
+
+      <% song.forEach(element => { %>
+
+        <li>
+          <a href="#">
+            <span><%= element.title %></span>
+            <span><%= element.artist %></span>
+          </a>
+        </li>
+
+      <% }) %>
+
+    </ul>
+
+</section>
